@@ -1,0 +1,10 @@
+@font-face {
+    font-family: Caveat ;
+    src: url(../FONTs/Caveat-VariableFont_wght.ttf) format("truetype");
+    font-weight: 900;
+
+}
+@font-face {
+    font-family: Kolker;
+    src: url(../FONTs/KolkerBrush-Regular.ttf) format("truetype");
+}

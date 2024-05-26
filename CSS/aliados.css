@@ -1,0 +1,29 @@
+
+    
+    footer{
+    
+    color: black;
+    font-size: 100%;
+    font-family: Caveat ;
+    text-align: center;
+    align-items: center;
+    }
+    
+    .imagenes{
+    
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 50px;
+   
+
+    }
+    
+
+    .imagen{
+  
+ padding: 20px;
+      width: 280px;
+      height:280px 
+
+    }

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumate</title>
+
+
+
+
+
+
+
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+
+    <link href="<link href=" https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.materialdesignicons.com/5.3.45/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="script.js" defer></script>
+
+    <link rel="stylesheet" href="../CSS/sumate.css">
+    <link rel="stylesheet" href="../CSS/fonts.css">
+    <script src="form.js" defer></script>
+
+
+</head>
+
+<body>
+    <header id="idheader">
+
+
+    </header>
+
+
+    <form name="formulario" method="get" action="procesar.php" id="form">
+        <div>
+            <label>Nombre: <input type="text" name="nombre" id="name" placeholder="Ej: Pedro" required minlength="2"
+                    maxlength="15"></label>
+        </div>
+        <div>
+            <label>Apellido: <input type="text" name="nombre" id="lastname" placeholder="Ej: Gomez" required
+                    minlength="2" maxlength="15"></label>
+        </div>
+        <div>
+            <label>Fecha de nacimiento: <input type="date" name="edad" class="numerosEdad" required></label>
+        </div>
+        <div>
+            <label>Correo: <input type="email" name="correo" id="email" placeholder="Ej: Pedro@mail.com"
+                    required></label>
+        </div>
+        <div>
+            <label>Teléfono: <input type="tel" name="telefono" required></label>
+        </div>
+        <div>
+            <label>Sitio Web: <input type="url" name="sitioweb" placeholder="Ej: www.Pedro.com"></label>
+        </div>
+        <input type="file" id="file-image" required>
+        <div>
+            <label class="terminos">Acepto los terminos y condiciones <input type="checkbox" class="checkForm"
+                    required></label>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <p class="warnings" id="warnings"></p>
+        </div>
+    </form>
+
+
+
+
+
+
+
+    <footer id="idfooter">
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+
+    <script src="../JS/index.js"></script>
+</body>
+
+</html>
